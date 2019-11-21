@@ -1,0 +1,1 @@
+in order to add imu, changed output pins for data to nano from 19,18,17 to 2,16,17 - nano pins have not changed

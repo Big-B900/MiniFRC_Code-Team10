@@ -1,0 +1,9 @@
+COM7
+axis,leftright,a,d
+axis,updown,w,s
+axis,intakeRoller,j,l
+axis,armServo,i,k
+button,auto,t
+button,climb,x
+button,endclimb,c
+button,backClimb,z

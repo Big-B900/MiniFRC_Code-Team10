@@ -1,0 +1,18 @@
+drive forward backward (left stick vert) 	axis 1
+drive left right (left stick hori) 		axis 0
+right stick vert 				axis 3	
+right stick hori 				axis 4
+climb (trigger axis) 				axis 2
+buttons:
+a					0
+b					1
+x					2
+y					3
+left bumper				4
+right bumper				5
+middle left small button		6
+middle right small button (menu?)	7
+left stick press			8
+right stick press			9
+
+hat is hat

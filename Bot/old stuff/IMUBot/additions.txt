@@ -1,0 +1,17 @@
+I havent done anything
+
+I need to figure out how to use it
+and if it is useful
+
+possible uses:
+ - better auto
+	- doing complex things like to get more gears
+	- detecting when the robot has crossed a defence
+	- 
+ - correcting drive to go straight when I say so
+ 
+now that I've gotten ypr to display over serial...
+
+yaw is correct
+pitch is roll
+roll is pitch

@@ -1,0 +1,14 @@
+COM7
+joystick
+axis,leftright,0,1
+axis,updown,0,0
+axis,intakeRoller,0,3
+axis,armServo,0,2
+button,auto,t
+button,climb,0,5
+button,endclimb,0,12
+button,backClimb,0,6
+button,floorPos,0,0
+button,deliverPos,0,1
+button,chevalPos,0,2
+button,lowBarPos,0,3

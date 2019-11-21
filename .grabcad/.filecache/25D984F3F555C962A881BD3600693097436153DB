@@ -1,0 +1,95 @@
+//This is the configuration file for the MiniFRC Driver Station
+//Any line with a '//' will be ignored (even if it's at the end of the line!)
+
+//This selects the COM port to connect to the robot
+//COM = test can be used to enable test mode where the driver station does not connect to the robot
+//COM = 3
+
+//OMNI DRIVE ROBOT
+//COM = 14
+
+//PINK ARM ROBOT
+COM = 11
+
+//AUTOPORT will automatically attempt to connect to the robot over multiple COM ports if the specified one fails
+AUTOPORT = false
+
+//BAUD selects the serial baudrate to use, 9600 is default for the HC-06
+BAUD = 9600
+
+//PRECISION selects the level of decimal precision to use with joystick axes. 
+PRECISION = 2
+
+//JOYSTICK enables the use of joysticks. This can be turned off to save some performance when not using joysticks
+//This will automatically enable if any joystick-controlled inputs are present
+JOYSTICK = true
+
+//FPS controlls the target framerate of the driverstation. You can raise it if you want a quicker bot response time
+//but at some point you may be sending data faster than your reciever can read it, which causes weird behavior
+FPS = 20
+
+//LEGACY mode allows the driver station to work with bots that previously used the MiniFRC-2017 Driver Station
+//All features are still available in legacy mode, the only change is how the packets are sent
+LEGACY = true
+
+//Here is where you can define the inputs that will be sent to the robot
+//There are keyboard axes and buttons, joystick axes buttons and hats, and mode switches
+//The joystick numberings are printed to console when in test mode with joysticks enabled
+
+//OMNI DRIVE ROBOT
+//axis,Forward,w,s
+//axis,Left,a,d
+//axis,Rotation,q,e
+//button,speedMode,u
+//button,precisionMode,i
+//button,robotCentricMode,j
+//button,fieldCentricMode,l
+//button,zeroHeading,k
+
+//PINK ARM ROBOT
+//axis,Forward,s,w
+//axis,Left,d,a
+//axis,activeSide,j,l
+
+//joystick
+axis,Forward,0,1
+axis,Left,0,0
+axis,activeSide,0,4
+//mode,armCommand,0,7,0,2,0,8,0,8,0,8,0,5,0,6,0,0,0,1,0,3,0,4,0,9
+//mode,armCommand,r,t,y,u,i,o,x,c,v,b,n,m
+mode,armCommand,0,7,0,2,0,8,u,i,0,5,0,6,0,0,0,1,0,3,0,4,0,9
+//mode,armCommand,0,8,0,3,y,u,i,0,6,0,7,0,1,0,2,0,4,0,5,0,10
+
+axis,intakeCommand,0,2
+
+
+//common
+axis,telescope,#2,e
+axis,climb,q,#1
+button,auto,#4
+button,autocargo,#5
+button,autoBuilder,#6
+button,ultrasonicFollow,#7
+button,ultraAuto1,#8
+button,autocargosimple,#9
+button,cargoAutoSide,#0
+
+
+//To use a number button on a keyboard, place a # infront of the number. '#4'
+
+//Button Examples:
+//button, my_button_name, <key>
+//button, my_button_name, <joystick number>, <joystick button number>
+
+//Axes Examples:
+//axis, my_axis_name, <positive key>, <negative key>
+//axis, my_axis_name, <joystick number>, <joystick axis number>
+
+//Warning: Hats won't render
+//Hats Example:
+//hat, my_hat_name, <joystick number>, <hat number>
+
+//Mode Switches Examples:
+//you can also mix keys and joysticks
+//mode, my_mode_name, <key>, <key>, <key>, <key>, ...
+//mode, my_mode_name, <joystick number>, <joystick button number>, <joystick number>, <joystick button number>...

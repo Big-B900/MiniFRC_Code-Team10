@@ -1,0 +1,21 @@
+Add wires between arduino and nano
+change pins in code to right ones for both
+fix drive motors
+fix climber from not climbing (endcaps)
+test everything
+driver practice
+reveal vid
+
+FIGURE OUT HOW TO SEND WHICH AUTON
+ - Idea: hack into DS so can send int for auton from 0 (nothing) to 26, etc. based on different keys...
+ - ex: q is go forward 10s, w is low bar gear, e is gear from first pos w/ standard defence, d is gear + cheval from pos 1, c is gear + porticullis from pos 1...
+ - a and z are just porticullis + cheval, no gear
+
+
+defences most likely to get gear from programatically: 
+ - Low bar
+ - porticullis
+ - less likely:
+	 - rock wall
+	 - moat
+	 - rough terrain

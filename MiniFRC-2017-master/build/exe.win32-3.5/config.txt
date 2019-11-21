@@ -1,0 +1,17 @@
+COM5
+joystick
+axis,leftright,0,0
+axis,updown,0,1
+button,wings,0,6
+axis,intakeRoller,0,2
+axis,elevator,0,3
+button,spinup,0,2
+button,spindown,0,3
+button,auto,t
+button,switchautoo,y
+button,fast,0,5
+button,primeAuto,m
+axis,centerSwitchAuto,r,u
+axis,doubleCenterSwitchAuto,e,i
+axis,scaleAuto,f,j
+axis,advScaleAuto,k,l

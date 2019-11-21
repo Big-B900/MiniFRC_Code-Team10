@@ -1,0 +1,11 @@
+000	stay
+001	up 5 degrees
+010	down 5 degrees
+011	floor pos
+100	deliver pos
+101	cheval pos
+110	low bar pos (hopefully also can be used for other defences (make sure clears rock wall))
+	hp station pos (would have to go on one of the small buttons on the controller, optional, don't think its needed)
+	
+1=high, 0=low
+3 digital pins used

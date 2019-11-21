@@ -1,0 +1,30 @@
+void setup(){                    // in setup we tell bluetooth communication to start and set all of out motors to "move" forward at 0 speed
+  bluetooth.begin(9600);
+  drive(0,0);
+  pinMode(19,OUTPUT); // first digit of commands to nano
+  // added for fall 17
+  pinMode(18,OUTPUT); //second digit
+  pinMode(17,OUTPUT); //third digit
+}
+
+
+  armPos = bluetooth.parseFloat();
+
+
+switch((int)(armPos)){
+          case -1: //001
+            digitalWrite(19,LOW);
+            digitalWrite(18,LOW);
+            digitalWrite(17,HIGH);
+          break;
+          case 0: //010
+            digitalWrite(19,LOW);
+            digitalWrite(18,LOW);
+            digitalWrite(17,LOW);
+          break;
+          case 1://100
+            digitalWrite(19,LOW);
+            digitalWrite(18,HIGH);
+            digitalWrite(17,LOW);
+          break;
+        }

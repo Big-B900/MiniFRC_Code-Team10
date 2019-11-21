@@ -1,0 +1,23 @@
+MiniFRC Driver Station v4.1
+[INFO] Found config.txt, reading...
+[INFO] Configured to use com port COM11
+[INFO] Configured baudrate to 9600
+[INFO] Configured precision to 2
+[INFO] Configured FPS to 20
+[INFO] Legacy Packets are enabled.
+[INFO] Added an axis controlled by joystick #0 axis #1
+[INFO] Added an axis controlled by joystick #0 axis #0
+[INFO] Added an axis controlled by joystick #0 axis #4
+[INFO] Added a Mode switch
+[INFO] Added an axis controlled by joystick #0 axis #2
+[INFO] Added an axis controlled by keys '#2' and 'e'
+[INFO] Added an axis controlled by keys 'q' and '#1'
+[INFO] Added a button controlled by key '#4'
+[INFO] Added a button controlled by key '#5'
+[INFO] Added a button controlled by key '#6'
+[INFO] Added a button controlled by key '#7'
+[INFO] Added a button controlled by key '#8'
+[INFO] Added a button controlled by key '#9'
+[INFO] Added a button controlled by key '#0'
+[INFO] Enabled joysticks
+[INFO] Program closed, shutting down...

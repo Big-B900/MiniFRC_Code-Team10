@@ -1,0 +1,15 @@
+COM5
+joystick
+axis,leftright,0,0
+axis,updown,0,1
+axis,intakeRoller,0,4
+axis,armServo,0,3
+axis,climb,0,2
+button,auto,0,6
+button,groundPos,0,0
+button,retract,0,4
+button,chevalPos,0,2
+button,deliverPos,0,3
+button,advAuto,0,7
+button,expend,0,5
+

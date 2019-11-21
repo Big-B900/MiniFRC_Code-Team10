@@ -1,0 +1,49 @@
+as of 2017/11/5:
+Practice bot is somewhat upgraded
+added more cables and code on the nano to improve servo
+cheval and floor positions prob. not needed, just use joystick
+then use the 3 free commands (those 2 plus 111) to command other servos
+ - problem: wouldn't be able to control them simultaneously
+
+since testing: changed around axis and button on defaultBot for commanding the arm 
+so that it does axis last and will actually be able to do the other ones
+
+
+todo program:
+ - fix presets after testing, dial in values
+ - remove useless prests
+ - make killer autos
+ - figure out how to control rear servos from nano
+ - also figure out if lights are a thing
+	- even button in gear mech to tell me when I've grabbed it and make ground effect lighting or something. 
+
+todo mech
+ - test robot and code
+ - prototype porticullis mech 
+	- servos?
+	- spring/elastic
+		- how to trigger: servo?
+		- make sure won't hinder other things
+ - prototype rails or cover
+	- cover to prevent gears from staying in bot
+ - prototype new climber and its location
+	- test location with some sort of rig on practice bot. 
+ - find and install ground effect lighting
+	- for indicating having a gear
+	- also figure out how to control it...
+ - find button for gear mech to sense gear
+	- to command lighting. 
+
+todo cad
+ - bring cad up to date with current robot and plan 
+	- so it can be copied after start build and made slightly better. 
+	- include rear portion with servos
+
+ - CAD prototype rails and/or cover to prevent gears from falling
+ 	- printed
+ - cad protype printed climber
+	- new location
+	- anchor on other side
+	- prevent rope coming of
+ - add panels on gear mech for cheval
+ - add button on gear mech for gear identification?

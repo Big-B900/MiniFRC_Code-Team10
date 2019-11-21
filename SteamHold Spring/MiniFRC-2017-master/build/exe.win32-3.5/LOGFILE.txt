@@ -1,0 +1,41 @@
+MiniFRC Driver Station 2017 V3.5
+Booting...
+[INFO] found config.txt, reading...
+[INFO] Added "leftright" joystick-controlled axis to package list
+[INFO] Added "updown" joystick-controlled axis to package list
+[INFO] Added "intakeRoller" joystick-controlled axis to package list
+[INFO] Added "armServo" joystick-controlled axis to package list
+[INFO] Added "auto" keyboard-controlled button to package list
+[INFO] Added "climb" joystick-controlled button to package list
+[INFO] Added "endclimb" joystick-controlled button to package list
+[INFO] Added "backClimb" joystick-controlled button to package list
+[INFO] Added "floorPos" joystick-controlled button to package list
+[INFO] Added "deliverPos" joystick-controlled button to package list
+[INFO] Added "chevalPos" joystick-controlled button to package list
+[INFO] Added "lowBarPos" joystick-controlled button to package list
+[INFO] Joysticks enabled in config file, loading joystick control
+ 
+[INFO] Detected 1 joystick(s): [<Joystick object at 0x02D4C9F0>]
+ 
+ Joystick name: Controller (Xbox One For Windows)
+   Num of axes: 5
+       Axis 0 value: 0.0
+       Axis 1 value: 0.0
+       Axis 2 value: 0.0
+       Axis 3 value: 0.0
+       Axis 4 value: 0.0
+   Number of buttons: 10
+       Button 0 value: 0
+       Button 1 value: 0
+       Button 2 value: 0
+       Button 3 value: 0
+       Button 4 value: 0
+       Button 5 value: 0
+       Button 6 value: 0
+       Button 7 value: 0
+       Button 8 value: 0
+       Button 9 value: 0
+   Number of hats: 1
+       Hat 0 value: (0, 0)
+[WARNING] Couldn't connect to robot with specified COM port in config file
+[WARNING] Normal operation has ended, expect an error message
